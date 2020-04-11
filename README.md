@@ -1,0 +1,2 @@
+# GhostMessages
+BetterDiscord plugin
