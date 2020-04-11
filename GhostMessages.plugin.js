@@ -1,4 +1,4 @@
-//META{"name":"GhostMessage","website":"https://github.com/KrexonBg/GhostMessages","source":"none"}*//
+//META{"name":"GhostMessage","website":"https://github.com/KrexonBg/GhostMessages","source":"https://raw.githubusercontent.com/KrexonBg/GhostMessages/master/GhostMessages.plugin.js"}*//
 
 var GhostMessage = function() {};
 
@@ -33,7 +33,7 @@ GhostMessage.prototype.start = function() {
   }
 
   updateInterval = setInterval(() => {
-    ZLibrary.PluginUpdater.checkForUpdate("GhostMessage", this.getVersion(), "https://raw.githubusercontent.com/KyzaGitHub/GhostMessage/master/GhostMessage.plugin.js");
+    ZLibrary.PluginUpdater.checkForUpdate("GhostMessage", this.getVersion(), "https://raw.githubusercontent.com/KrexonBg/GhostMessages/master/GhostMessages.plugin.js");
   }, 5000);
 
   addButton();
@@ -97,7 +97,7 @@ function addButton() {
 
         var ghostButtonIcon = document.createElement("img");
         //version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon-3D60ES da-icon" viewBox="0 0 22 22" fill="currentColor"
-        ghostButtonIcon.setAttribute("src", "https://image.flaticon.com/icons/svg/1245/1245305.svg");
+        ghostButtonIcon.setAttribute("src", "https://www.flaticon.com/premium-icon/icons/svg/442/442316.svg");
         ghostButtonIcon.setAttribute("class", "icon-3D60ES da-icon");
         ghostButtonIcon.setAttribute("style", "filter: invert(100%) !important;");
         ghostButtonIcon.setAttribute("width", "22");
